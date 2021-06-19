@@ -1,0 +1,16 @@
+.normalInput.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot fieldset {
+    color: black  !important ;
+    border: 2px solid;
+}
+// .normalInput.v-text-field--outlined.v-input--is-focused fieldset{
+//     color: rgba(0,0,0,.38) !important;
+//     border: 2px solid;
+// }
+.greenInput.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot fieldset {
+    color: #ffc0cb !important ;
+    border: 2px solid;
+}
+// .greenInput.v-text-field--outlined.v-input--is-focused fieldset{
+//     color:green !important;
+//     border: 2px solid;
+// }

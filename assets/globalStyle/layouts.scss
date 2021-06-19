@@ -1,0 +1,27 @@
+// Disible scrollbar
+html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+::-webkit-scrollbar {display:none;}
+
+
+.theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon {
+    color: white !important;
+}
+// vuetify components
+.v-application a {
+    color: black;
+}
+.v-toolbar__content, .v-toolbar__extension {
+    padding: 0;
+}
+
+.headerPanel {
+    background-color: burlywood;
+    color: crimson;
+}

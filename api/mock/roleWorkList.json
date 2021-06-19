@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "roleWork":"Top",
+        "position":"Rank 1",
+        "type":"Employee profit"
+    },
+    {
+        "id":2,
+        "roleWork":"Top",
+        "position":"Rank 2",
+        "type":"Partner profit"
+    },
+    {
+        "id":3,
+        "roleWork":"Mid",
+        "position":"Rank 3",
+        "type":"Partner OT profit"
+    },
+    {
+        "id":4,
+        "roleWork":"Mid",
+        "position":"Rank 3",
+        "type":"Other cost"
+    }
+]

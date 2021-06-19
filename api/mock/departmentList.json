@@ -1,0 +1,38 @@
+[
+  {
+        "id": 1,
+        "department": "Sec9",
+        "startDate": "20/01/1990",
+        "endDate": "20/01/1990",
+        "manager": "Nam Nguyen",
+        "partnerUnitPrice": "Nhan Luc",
+        "partnerOTUnitPrice": "Ho Ca"
+    },
+    {
+        "id": 2,
+        "department": "Sec9",
+        "startDate": "20/01/1990",
+        "endDate": "20/01/1990",
+        "manager": "Nam Nguyen",
+        "partnerUnitPrice": "Nhan Luc",
+        "partnerOTUnitPrice": "Ho Ca"
+    },
+    {
+        "id": 3,
+        "department": "Sec9",
+        "startDate": "20/01/1990",
+        "endDate": "20/01/1990",
+        "manager": "Nam Nguyen",
+        "partnerUnitPrice": "Nhan Luc",
+        "partnerOTUnitPrice": "Ho Ca"
+    },
+    {
+        "id": 4,
+        "department": "Sec9",
+        "startDate": "20/01/1990",
+        "endDate": "20/01/1990",
+        "manager": "Nam Nguyen",
+        "partnerUnitPrice": "Nhan Luc",
+        "partnerOTUnitPrice": "Ho Ca"
+    }
+]

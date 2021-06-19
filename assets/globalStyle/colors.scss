@@ -1,0 +1,95 @@
+@use "sass:meta";
+
+@mixin backgroundColor($args...) {
+  @each $name, $color in meta.keywords($args) {
+    .ay-bg--#{$name} {
+      background-color: $color !important;
+    }
+    .ay-color--#{$name} {
+      color: $color !important;
+    }
+    .ay-border--#{$name} {
+      border-color: $color !important;
+    }
+  }
+}
+
+@include backgroundColor(
+$white: #FFFFFF,
+$grey-1: #EBEBEB,
+$grey-2: #FDF8ED,
+$grey-3: #EDE6E1,
+$grey-4: #D0CBC7,
+$grey-5: #A8A8A8,
+$grey-6: #ABA7A4,
+$grey-7: #706F6D,
+$grey-8: #707070,
+$grey: #DEC29E33,
+$orange: #F18D17,
+$red: #FF2727,
+$light-blue: #00B1DB,
+$black: #000000,
+$brown: #FBE3C266,
+$yellow-1: #F8F48E,
+$yellow-2: #FBE3C2,
+$yellow-3: #FCF0DD,
+);
+
+@mixin fontSize($args...) {
+  @each $name, $font in meta.keywords($args) {
+    .ay-text--#{$name} {
+      font-size: $font;
+    }
+  }
+}
+
+@include fontSize(
+  $heading: 30px,
+  $title: 24px,
+  $basic: 20px,
+  $detail: 16px,
+  $info: 14px,
+  $small: 12px,
+);
+
+/////////////////////////////////////////////////////////////////
+
+@use "sass:meta";
+
+@mixin fontSize($args...) {
+  @each $name, $font in meta.keywords($args) {
+    .sa-text--#{$name} {
+      font-size: $font !important;
+    }
+  }
+}
+
+@include fontSize(
+  $basic: 20px,
+  $heading: 30px,
+  $title: 20px,
+  $detail: 16px,
+  $small: 12px,
+);
+@mixin Color($args...) {
+  @each $name, $color in meta.keywords($args) {
+    .sa-color--#{$name} {
+      color: $color;
+    }
+    .sa-background--#{$name} {
+      background-color: $color;
+    }
+  }
+}
+@include Color(
+  $orange: rgb(242,149,0),
+  $yellow: rgb(251,207,0),
+  $white: rgb(255, 255, 255),
+  $black: rgb(0, 0, 0),
+  $gray-k80: rgb(75, 75, 75),
+  $gray-k60: rgb(112, 112, 112),
+  $gray-k40: rgb(185, 185, 185),
+  $gray-k20: rgb(245, 245, 245),
+  $red: rgb(230, 20, 20),
+  $blue: rgb(35, 35, 235),
+)
